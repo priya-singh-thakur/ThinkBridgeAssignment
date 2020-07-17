@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import App from './App';
+import Item from './Item';
+import About from './About'
 
 class Router extends  React.Component {
     render(){
         return(
             <BrowserRouter>
               <Switch>
-                <Route exact path="/" component={App} />
-                {/* <Route path="/abc" component={SecondPage} /> */}
+                <Route exact path="/" component={Item} />
+                <Route path="/about" component={About} />
              </Switch>
          </BrowserRouter>
 
