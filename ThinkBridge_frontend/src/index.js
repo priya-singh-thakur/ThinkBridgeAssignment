@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Router from './Router';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>,
-  document.getElementById('root')
-);
+  document.getElementById("root")
+  );
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   ReactDOM.render(
+//     React.createElement(App),
+//     document.getElementById('mount')
+//   );
+// });
 
