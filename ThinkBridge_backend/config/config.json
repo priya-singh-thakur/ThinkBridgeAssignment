@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "root",
-    "database": "thinkbridge_item",
+    "database": "thinkBridge",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
