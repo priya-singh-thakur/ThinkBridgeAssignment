@@ -44,6 +44,7 @@ app.post('/item/additem', (req, res) => {
     upload(req, res, function (err) {
       const { name, description, price } = req.body;
       const imageUrl = req.file.filename
+      // console.log('hkjk', req.file)
       const user =  model.User.create({
         name,
         description,
